@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "name": "Lang en",
+  "description": "add en lang param to url",
+  "version": "1.0",
+  "browser_action": {
+    "default_icon": "assets/icon-16.png",
+    "default_title": "Lang en"
+  },
+  "background": {
+    "scripts": [
+      "lib/jquery.js",
+      "main.js"
+    ]
+  },
+  "icons": {
+    "16": "assets/icon-16.png",
+    "32": "assets/icon-32.png",
+    "64": "assets/icon-64.png",
+    "128": "assets/icon-128.png"
+  }
+}
